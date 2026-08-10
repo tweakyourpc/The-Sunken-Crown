@@ -1,5 +1,7 @@
 # THE SUNKEN CROWN
 
+![Morrowlamp Software marketing board](marketing/morrowlamp-github-marketing.png)
+
 A point-and-click adventure RPG in the spirit of classic 1980s adventure games, built from scratch in plain JavaScript. No frameworks, no build step, no dependencies, and **no runtime image or audio assets**: every scene is drawn pixel by pixel in code against the 16-colour EGA palette, and every note of music is synthesized at runtime. The provisional fictional publisher mark is Morrowlamp Software; the `marketing/` folder contains separate retro retail concepts for later branding work, not game content.
 
 An original story with original prose. Your grandmother left you Ashcombe, a manor that has been ignoring the weather for three hundred years, and swore its well led to a kingdom that sank into a hill. She was not wrong.
@@ -100,7 +102,7 @@ js/publisher.js       — point-and-click controller
 js/parser.js          — verb/noun recognition            (text mode)
 js/ui.js              — terminal, map, overlays          (text mode)
 
-marketing/            — separate retro retail concept art; not loaded by the game
+marketing/morrowlamp-github-marketing.png — GitHub-only Morrowlamp marketing asset
 
 test/playthrough.js   — engine integration tests
 test/scenes.js        — scene data integrity
@@ -108,6 +110,8 @@ test/ui-title.probe.js— text-mode DOM probe
 ```
 
 Everything under `js/` runs unbundled in load order; `world.js`, `engine.js` and `rpg.js` have no DOM dependency and run under Node for the tests.
+
+The title-screen hero graphic is generated at runtime by `drawTitleHero()` in `js/publisher.js`; it is intentionally not stored as an image file.
 
 ## Credits
 
