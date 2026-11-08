@@ -1,5 +1,13 @@
 # THE SUNKEN CROWN
 
+> **This is the original 2026 release, kept as it was. The game has moved on.**
+>
+> **[Play The Sunken Crown: Remastered](https://tweakyourpc.github.io/morrowlamp/remastered.html)**,
+> free in your browser, with rendered rooms, a live lantern, three narrators, new rooms and puzzles,
+> and an ending film. It is made with the Morrowlamp engine, and its source, along with this classic
+> edition's, now lives in **[tweakyourpc/morrowlamp](https://github.com/tweakyourpc/morrowlamp)**.
+> This repository is archived and no longer updated.
+
 ![Morrowlamp Software marketing board](marketing/morrowlamp-github-marketing.png)
 
 A point-and-click adventure RPG in the spirit of classic 1980s adventure games, built from scratch in plain JavaScript. No frameworks, no build step, no dependencies, and **no runtime image or audio assets**: every scene is drawn pixel by pixel in code against the 16-colour EGA palette, and every note of music is synthesized at runtime. The provisional fictional publisher mark is Morrowlamp Software; the `marketing/` folder contains separate retro retail concepts for later branding work, not game content.
